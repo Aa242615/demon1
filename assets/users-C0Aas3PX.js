@@ -1,0 +1,1 @@
+import{a as r}from"./axios-B4uVmeYG.js";const e=r.create({baseURL:"http://127.0.0.1:5000",timeout:5e3}),s=t=>e({method:"POST",url:"/login",data:t}),a=t=>e({method:"POST",url:"/registuser",data:t});export{s as l,a as r};
